@@ -13,9 +13,33 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
   /* выше установили ограничения для секции */
 }
-
+.logo_place_header{
+  height: 32px;
+  width: 228px;
+  position: absolute;
+  z-index: 2;
+  top: 30px;
+  left: 64px;
+  margin: auto;
+  padding: 0;
+  font-size: 25px;
+}
+.header__title{
+  align-items: center;
+  font-size: 102px;
+  font-weight: 600;
+  width: 730px;
+  height: 200px;
+  line-height: 96px;
+  margin: 64px;
+  align-self: center;
+}
+.header__subtitle{
+  
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
